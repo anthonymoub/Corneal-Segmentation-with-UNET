@@ -28,10 +28,10 @@ The scans were pre-processed to optimize the model's performance, involving step
 ## Training
 The model training was executed with the following specifics:
 
-Loss function: Binary cross-entropy.
-Optimizer: Stochastic Gradient Descent (SGD) with momentum.
+Loss function: Binary cross-entropy with Logits.
+Optimizer: ADAM, SGD,
 Regularization techniques: Dropout and data augmentation.
-Hardware: Training was conducted on a high-performance GPU to expedite the process.
+Hardware: Training was conducted on T4 GPU with 16 GB RAM on Google Colab
 Results and Evaluation
 The model was evaluated on a separate test set to ensure unbiased performance assessment. We used metrics like accuracy, precision, recall, and F1-score for comprehensive evaluation. The results indicated a significant improvement in identifying the demarcation line compared to traditional methods.
 
