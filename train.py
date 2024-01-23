@@ -3,18 +3,14 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, random_split
 import os
-import wandb  # Assuming you have Weights and Biases (wandb) installed
+import wandb  
+from model import UNET  
 
-# Import your UNET model class (assuming it's defined in another module)
-from your_module import UNET  # Replace 'your_module' with the actual module name
-
-# Assuming you have a 'train_dataset' and 'val_loader' defined elsewhere in your code
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = UNET().to(device)
 
-# Redefine the BCE loss criterion with pos_weight
 criterion_weighted = nn.BCELoss(weight=torch.tensor(40).to(device))
 
 # Learning rate
