@@ -40,10 +40,10 @@ Results and Evaluation
 The model was evaluated on a separate test set to ensure unbiased performance assessment. We used metrics like accuracy, precision, recall, and F1-score for comprehensive evaluation. The results indicated a significant improvement in identifying the demarcation line compared to traditional methods.
 
 ## Repository Structure
-/data: Contains sample data for demonstration.
-/models: U-Net model architecture and trained models.
-/notebooks: Jupyter notebooks for training and evaluation.
-/results: Results and visualizations of the model performance.
+data.py: Creates a train and test loader using the original data.
+model.py: U-Net model architecture.
+train.py: Script used to train the model.
+resume_training.py: Since model training was interrupted often due to large number of images, a resume training script deals with this.
 requirements.txt: List of Python dependencies for replication.
 
 ## Results
