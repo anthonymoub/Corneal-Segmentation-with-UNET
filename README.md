@@ -43,6 +43,8 @@ The model was evaluated on a separate test set to ensure unbiased performance as
 requirements.txt: List of Python dependencies for replication.
 
 ## Results
+
+Preliminary results show the model is able to segment demarcation lines correctly on unseen data.
 ![image](https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/103491240/d040f714-b767-412d-bd39-e0c0d009a2a4)
 
 
