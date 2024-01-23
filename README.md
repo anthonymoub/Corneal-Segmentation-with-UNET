@@ -5,7 +5,7 @@ This repository contains the implementation and findings of our study on automat
 Our study is driven by the need for precise and efficient identification of the demarcation line in post-CXL (Corneal Cross-Linking) surgery scans for keratoconus treatment. Traditional methods are often subjective and time-consuming, hence, the application of deep learning offers a promising alternative.
 
 ## Data Collection
-In collaboration with medical institutions, we compiled a dataset of 939 corneal scans from 61 patients. These scans exhibit varying visibility of the demarcation line, adding complexity to the segmentation task.
+In collaboration with medical institutions in Switzelrand and Lebanon, we compiled a dataset of 939 corneal scans from 61 patients. These scans exhibit varying visibility of the demarcation line, adding complexity to the segmentation task.
 
 ## Methods
 
