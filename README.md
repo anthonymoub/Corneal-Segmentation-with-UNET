@@ -10,8 +10,6 @@ This project centers around the application of Convolutional Neural Networks (CN
 ## Disclaimer 
 As this project is currently in progress and we plan on producing a publication from it, certain aspects such as data collection, the actual dataset, data cleaning, and splitting have been kept external to this repository, with details intentionally left vague. The repository serves as an illustrative snapshot of the work accomplished thus far. We anticipate updating this README with a link to the research paper once it undergoes publication.
 
-descr- This repository contains code for segmentation of lines in post-surgery corneal scans, using a U-NET architecture.
-
 ## Data
 In collaboration with medical institutions in Switzerland and Lebanon, we compiled a dataset of 939 corneal scans from 61 patients. These scans exhibit varying visibility of the demarcation line, adding complexity to the segmentation task. The basic task the model needs to learn is illustrated below, in the input (X) and output (Y) image. Input images consist of corneal scans, which contain a thin line in cases where the surgery is successful. The ground-truth Y or output image is simply a mask of the line, which is traced manually by opthalmologists.
 
