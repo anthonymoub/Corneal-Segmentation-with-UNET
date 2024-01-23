@@ -6,9 +6,11 @@
 This repository contains the implementation and findings of our study on automated demarcation line detection in corneal scans using a deep learning approach. The project focuses on addressing keratoconus, a corneal condition, leveraging advanced Convolutional Neural Networks (CNNs) for post-surgical evaluation. Our model is based on the U-Net architecture, renowned for its effectiveness in biomedical image segmentation.
 Our study is driven by the need for precise and efficient identification of the demarcation line in post-CXL (Corneal Cross-Linking) surgery scans for keratoconus treatment. Traditional methods are often subjective and time-consuming, hence, the application of deep learning offers a promising alternative.
 
-## Data Collection
+## Data
+In collaboration with medical institutions in Switzerland and Lebanon, we compiled a dataset of 939 corneal scans from 61 patients. These scans exhibit varying visibility of the demarcation line, adding complexity to the segmentation task. The basic task the model needs to learn is illustrated below, in the input (X) and output (Y) image. Input images consist of corneal scans, which contain a thin line in cases where the surgery is successful. The ground-truth Y or output image is simply a mask of the line, which is traced manually by opthalmologists.
+
 <img width="759" alt="Screenshot 2024-01-23 at 4 55 09 PM" src="https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/112438562/0bf6dab2-c1c5-42ad-928d-dcfde987fcc3">
-In collaboration with medical institutions in Switzelrand and Lebanon, we compiled a dataset of 939 corneal scans from 61 patients. These scans exhibit varying visibility of the demarcation line, adding complexity to the segmentation task.
+
 
 ## Methods
 
