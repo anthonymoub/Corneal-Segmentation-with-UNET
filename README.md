@@ -1,5 +1,4 @@
 # Corneal Demarcation Line Detection using U-Net
-![image](https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/103491240/d040f714-b767-412d-bd39-e0c0d009a2a4)
 
 ## Introduction
 This repository contains the implementation and findings of our study on automated demarcation line detection in corneal scans using a deep learning approach. The project focuses on addressing keratoconus, a corneal condition, leveraging advanced Convolutional Neural Networks (CNNs) for post-surgical evaluation. Our model is based on the U-Net architecture, renowned for its effectiveness in biomedical image segmentation.
@@ -42,8 +41,9 @@ The model was evaluated on a separate test set to ensure unbiased performance as
 /notebooks: Jupyter notebooks for training and evaluation.
 /results: Results and visualizations of the model performance.
 requirements.txt: List of Python dependencies for replication.
-Usage
-Instructions on how to set up the environment, train the model, and perform evaluations are provided in the /docs directory.
+
+## Results
+![image](https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/103491240/d040f714-b767-412d-bd39-e0c0d009a2a4)
 
 
 ## Citations
