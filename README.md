@@ -1,7 +1,8 @@
 # Corneal Demarcation Line Detection using U-Net
 
-<img width="848" alt="Screenshot 2024-01-23 at 5 15 08 PM" src="https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/112438562/b2b964f8-dadb-45e1-8a8a-d5a73f8c8bc0">
-
+<div style="text-align:center">
+    <img width="848" alt="Screenshot" src="https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/112438562/b2b964f8-dadb-45e1-8a8a-d5a73f8c8bc0">
+</div>
 
 ## Introduction
 This project centers around the application of Convolutional Neural Networks (CNN) for the identification of a specific type of line in corneal scans, which is crucial in post-surgical analysis for a particular eye disease. The chosen model architecture is U-Net. The primary objective of our model is to streamline the detection process of this line, with the potential for integration into medical devices employed for scanning patients' corneas, thereby introducing automation to this diagnostic procedure.
