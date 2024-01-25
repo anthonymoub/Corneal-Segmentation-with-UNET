@@ -59,7 +59,4 @@ Preliminary results show the model is able to segment demarcation lines correctl
 
 ## Citations
 U-Net: Convolutional Networks for Biomedical Image Segmentation, Ronneberger et al., 2015.
-[Additional relevant papers and datasets used]
-License
-This project is licensed under [License Name]. For more details, see LICENSE file.
 
