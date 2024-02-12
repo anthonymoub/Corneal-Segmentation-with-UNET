@@ -23,8 +23,6 @@ Our approach employs U-Net, a specialized deep CNN for image segmentation. The a
 
 Skip connections for detailed segmentation.
 A bottleneck layer for spatial dimension reduction.
-![image](https://github.com/anthonymoub/Corneal-Segmentation-with-UNET/assets/103491240/0ac9dc59-6d84-4b91-a836-c48de4cd5908)
-
 Model checkpointing and learning rate scheduling for efficient training.
 The dataset was divided into training (80%), validation (10%), and testing (10%) sets. The training process involves multiple epochs with rigorous validation to ensure model accuracy and generalizability.
 
